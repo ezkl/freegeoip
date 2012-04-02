@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://freegeoip.net/json/google-public-dns-a.google.com
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - nginx/0.7.67
+      date:
+      - Mon, 02 Apr 2012 02:39:22 GMT
+      content-type:
+      - application/json
+      connection:
+      - close
+      access-control-allow-origin:
+      - ! '*'
+      etag:
+      - ! '"037319b5e2a1a8d7c5b59d6f8786d875c9ae7e41"'
+      content-length:
+      - '235'
+    body:
+      encoding: US-ASCII
+      string: ! '{"city": "Mountain View", "region_code": "CA", "longitude": "-122.057",
+        "region_name": "California", "country_code": "US", "latitude": "37.4192",
+        "country_name": "United States", "ip": "8.8.8.8", "zipcode": "94043", "metrocode":
+        "807"}'
+    http_version: 
+  recorded_at: Mon, 02 Apr 2012 02:38:19 GMT
+- request:
+    method: get
+    uri: http://freegeoip.net/json/8.8.8.8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - nginx/0.7.67
+      date:
+      - Mon, 02 Apr 2012 02:39:22 GMT
+      content-type:
+      - application/json
+      connection:
+      - close
+      access-control-allow-origin:
+      - ! '*'
+      etag:
+      - ! '"037319b5e2a1a8d7c5b59d6f8786d875c9ae7e41"'
+      content-length:
+      - '235'
+    body:
+      encoding: US-ASCII
+      string: ! '{"city": "Mountain View", "region_code": "CA", "longitude": "-122.057",
+        "region_name": "California", "country_code": "US", "latitude": "37.4192",
+        "country_name": "United States", "ip": "8.8.8.8", "zipcode": "94043", "metrocode":
+        "807"}'
+    http_version: 
+  recorded_at: Mon, 02 Apr 2012 02:38:19 GMT
+recorded_with: VCR 2.0.1

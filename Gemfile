@@ -1,4 +1,12 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in freegeoip.gemspec
 gemspec
+
+group :development do
+  gem 'guard-rspec'
+  gem 'growl', :require => false
+end
+
+group :test do
+  gem 'rake'
+end
