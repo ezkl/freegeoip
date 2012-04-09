@@ -15,7 +15,7 @@ http_interactions:
       server:
       - nginx/0.7.67
       date:
-      - Mon, 02 Apr 2012 02:39:22 GMT
+      - Mon, 02 Apr 2012 02:47:46 GMT
       content-type:
       - application/json
       connection:
@@ -33,7 +33,7 @@ http_interactions:
         "country_name": "United States", "ip": "8.8.8.8", "zipcode": "94043", "metrocode":
         "807"}'
     http_version: 
-  recorded_at: Mon, 02 Apr 2012 02:38:19 GMT
+  recorded_at: Mon, 02 Apr 2012 02:46:43 GMT
 - request:
     method: get
     uri: http://freegeoip.net/json/8.8.8.8
@@ -49,7 +49,7 @@ http_interactions:
       server:
       - nginx/0.7.67
       date:
-      - Mon, 02 Apr 2012 02:39:22 GMT
+      - Mon, 02 Apr 2012 02:47:47 GMT
       content-type:
       - application/json
       connection:
@@ -67,5 +67,5 @@ http_interactions:
         "country_name": "United States", "ip": "8.8.8.8", "zipcode": "94043", "metrocode":
         "807"}'
     http_version: 
-  recorded_at: Mon, 02 Apr 2012 02:38:19 GMT
+  recorded_at: Mon, 02 Apr 2012 02:46:43 GMT
 recorded_with: VCR 2.0.1

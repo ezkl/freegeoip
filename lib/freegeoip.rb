@@ -16,3 +16,4 @@ module FreeGeoIP
 end
 
 require "freegeoip/version"
+require "freegeoip/response"
