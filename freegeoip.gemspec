@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["zeke@templ.in"]
   gem.description   = %q{Ruby Client for FreeGeoIP's geolocation API}
   gem.summary       = %q{Ruby Client for FreeGeoIP's geolocation API}
-  gem.homepage      = "http://github.com/ezkl/"
+  gem.homepage      = "https://github.com/ezkl/freegeoip"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
